@@ -1,0 +1,52 @@
+PS C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01> gcc -g -O0 problem01.c -o problem01.exe
+PS C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01> pwd
+
+Path
+----
+C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01
+
+
+PS C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01> git add .
+warning: in the working copy of 'set01/.vscode/settings.json', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01> git commit -m "problem01"
+[main 821e563] problem01
+ 18 files changed, 527 insertions(+), 1 deletion(-)
+ create mode 100644 .vscode/c_cpp_properties.json
+ create mode 100644 .vscode/launch.json
+ create mode 100644 .vscode/settings.json
+ create mode 100644 set01/.vscode/c_cpp_properties.json
+ create mode 100644 set01/.vscode/launch.json
+ create mode 100644 set01/.vscode/settings.json
+ create mode 100644 set01/problem01.debug.txt
+ create mode 100644 set01/problem01.errors.txt
+PS C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01> git push
+Enumerating objects: 32, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (20/20), 4.47 KiB | 1.49 MiB/s, done.
+Total 20 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Bindu1511/c-actiivity-sets
+   4b06692..821e563  main -> main
+PS C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01> gdb .\problem01.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01\problem01.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem01.c, line 5.
+(gdb) r
+Starting program: C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01/.\problem01.exe
+[New Thread 17876.0x49fc]
+[New Thread 17876.0x1828]
+
+Breakpoint 1, main () at problem01.c:5
+5           printf("Bindu.R\n");
+(gdb)

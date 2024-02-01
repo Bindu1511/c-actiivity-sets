@@ -1,1 +1,4 @@
-.
+PS C:\Users\Navya R\OneDrive\Desktop\c-activity-sets_psc\c-actiivity-sets\set01> gcc -g -O0 problem1.c -o problem01.exe
+gcc.exe: error: problem1.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
